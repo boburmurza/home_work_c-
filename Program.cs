@@ -4,6 +4,7 @@
 // a = -9 b = -3 -> max = -3
 
 
+// 
 // Console.Write("введите число  a = : ");
 // int number_a = Convert.ToInt32( Console.ReadLine() ); 
 // Console.Write("введите число  b = : ");
@@ -13,7 +14,10 @@
 // else if  ( number_b>number_a) {
 //     Console.WriteLine (" максмимальное  число = : "+number_b );
 // }
-
+// if (number_a>number_b){
+//     Console.WriteLine( " минимальное   число = : "+number_b);}
+// else if  ( number_b>number_a) {
+//     Console.WriteLine ("  минимальное  число = : "+number_a );
 
 
 // задача №  2 Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
