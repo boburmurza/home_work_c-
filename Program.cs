@@ -4,15 +4,21 @@
 // a = -9 b = -3 -> max = -3
 
 
-// Console.Write("введите число  a = : ");
-// int number_a = Convert.ToInt32( Console.ReadLine() ); 
-// Console.Write("введите число  b = : ");
-// int number_b = Convert.ToInt32( Console.ReadLine() ); 
-// if (number_a>number_b){
-//     Console.WriteLine( " максмимальное  число = : "+number_a);}
-// else if  ( number_b>number_a) {
-//     Console.WriteLine (" максмимальное  число = : "+number_b );
-// }
+Console.Write("введите число  a = : ");
+int number_a = Convert.ToInt32( Console.ReadLine() ); 
+Console.Write("введите число  b = : ");
+int number_b = Convert.ToInt32( Console.ReadLine() ); 
+if (number_a>number_b){
+    Console.WriteLine( " максмимальное  число = : "+number_a);}
+else if  ( number_b>number_a) {
+    Console.WriteLine (" максмимальное  число = : "+number_b );
+}
+if (number_a>number_b){
+    Console.WriteLine( " минимальное   число = : "+number_b);}
+else if  ( number_b>number_a) {
+    Console.WriteLine ("  минимальное  число = : "+number_a );
+}
+
 
 
 
@@ -53,16 +59,16 @@
 // 8 -> 2, 4, 6, 8
 
 
-Console.Write("Enter number: ");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-int count = 0;
-while (count <= number)
-{
-    if (count % 2 == 0){
-       // if (count >0 )
+// int count = 0;
+// while (count <= number)
+// {
+//     if (count % 2 == 0){
+//        // if (count >0 )
     
-        Console.Write(count + ", ");}
+//         Console.Write(count + ", ");}
    
-    count++;
-}
+//     count++;
+// }
