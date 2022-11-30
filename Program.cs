@@ -13,7 +13,7 @@
 // else if  ( number_b>number_a) {
 //     Console.WriteLine (" максмимальное  число = : "+number_b );
 // }
- 
+
 
 
 // задача №  2 Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
@@ -41,9 +41,28 @@
 // -3 -> нет
 // 7 -> нет
 
- Console.Write("введите число  number = : ");
-int number = Convert.ToInt32( Console.ReadLine() ); 
-if (number%2==0)
-     Console.Write(number+"  --→ да ");
-else 
-     Console.Write(number+" --→ нет ");
+//  Console.Write("введите число  number = : ");
+// int number = Convert.ToInt32( Console.ReadLine() ); 
+// if (number%2==0)
+//      Console.Write(number+"  --→ да ");
+// else 
+//      Console.Write(number+" --→ нет ");
+// задача №   4 Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
+
+Console.Write("Enter number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int count = 0;
+while (count <= number)
+{
+    if (count % 2 == 0){
+       // if (count >0 )
+    
+        Console.Write(count + ", ");}
+   
+    count++;
+}
